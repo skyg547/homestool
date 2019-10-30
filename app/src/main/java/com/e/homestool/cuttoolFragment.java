@@ -18,7 +18,6 @@ public class cuttoolFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         ViewGroup rootView = (ViewGroup) inflater.inflate(R.layout.cuttoolfragment, container, false);
 
-        String[] list_menu = { "원형 톱", "그라인더","직쏘우","테이블 쏘우","컷 쏘우","각도절단기" };
 
         ListView listView = (ListView) rootView.findViewById(R.id.listView);
 
