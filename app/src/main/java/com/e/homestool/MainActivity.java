@@ -81,6 +81,8 @@ public class MainActivity extends AppCompatActivity implements Fragmentcallback 
             electtoolFragment = new electtoolFragment();
             cuttoolFragment = new cuttoolFragment();
             airtoolFragment = new airtoolFragment();
+
+            // 프래그먼트수정
 /*
 
             Intent intent = new Intent(getApplicationContext(), MyListFragment.class);

@@ -18,7 +18,7 @@ public class airtoolFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         ViewGroup rootView = (ViewGroup) inflater.inflate(R.layout.airtoolfragment, container, false);
 
-        String[] list_menu = { "타카","비트윈"};
+        String[] list_menu = { "타카","비트윈", "에어 건"};
 
         ListView listView = (ListView) rootView.findViewById(R.id.listView);
 
